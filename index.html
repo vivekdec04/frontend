@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Music Player</title>
+    <script
+      src="https://kit.fontawesome.com/6f0f83005a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav>
+      <div id="music-player-tag">
+        <div id="music-player-logo">
+          <img src="images/music_player_logo.png" />
+        </div>
+
+        <div id="music-player-name">Ninja<br /><b>Studio</b></div>
+      </div>
+
+      <div id="search-bar-utility">
+        <div id="search-bar">
+          <form>
+            <input type="text" placeholder="Search..." />
+
+            <i class="fas fa-search"></i>
+          </form>
+        </div>
+
+        <div id="notifications">
+          <i class="fas fa-bell"></i>
+        </div>
+
+        <div id="user">
+          <img src="images/user-image.jpg" />
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div id="artist-template">
+        <div id="artist-image"></div>
+        <div id="artist-details">
+          <div id="artist-title">
+            <div>
+              <b>Arijit Singh</b>
+              <br />
+              <artist-type>Pop Artist</artist-type>
+            </div>
+            <followers>96.7k followers</followers>
+          </div>
+
+          <div id="artist-intro">
+            Arijit Singh is an Indian singer and music composer. He sings
+            predominantly in Bengali and Hindi, but has also performed in
+            various other Indian languages. He is the recipient of a National
+            Award and six Filmfare Awards
+          </div>
+
+          <div id="artist-buttons">
+            <div id="playall-button">
+              Play All
+            </div>
+            <div id="follow-button">
+              Follow
+            </div>
+          </div>
+          <div id="tracks">
+            247 Tracks | 128 Albums
+          </div>
+        </div>
+      </div>
+
+      <div id="artist-songs">
+        <!--Song 1-->
+        <div id="song">
+          <div id="song-number">
+            01
+            <img src="images/kesariya.jpeg" alt="album image" />
+            <div id="song-details">
+              Kesariya
+              <br />
+              <author>Arijit Singh</author>
+            </div>
+          </div>
+
+          <div id="icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+
+        <div id="song">
+          <div id="song-number">
+            02
+            <img src="images/song2.jpeg" alt="album image" />
+            <div id="song-details">
+              Tera Yaar Hoon Main
+              <br />
+              <author>Arijit Singh</author>
+            </div>
+          </div>
+
+          <div id="icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+    <aside>
+      <div id="aside-header-1">
+        Similar Artists
+        <x>View All</x>
+      </div>
+      <!--Similar artist-->
+      <div id="similar-artist">
+        <div id="artist-img"></div>
+        <div id="song-details">
+          Atif Aslam <br />
+          <author>Pop Artist</author>
+        </div>
+        <i class="fas fa-ellipsis-h"></i>
+      </div>
+
+      <div id="similar-artist">
+        <div id="artist-img"></div>
+        <div id="song-details">
+          Sonu nigam
+          <br />
+          <author>Pop Artist</author>
+        </div>
+        <i class="fas fa-ellipsis-h"></i>
+      </div>
+
+      <div id="similar-artist">
+        <div id="artist-img"></div>
+        <div id="song-details">
+          udit narayan
+          <br />
+          <author>Pop Artist</author>
+        </div>
+        <i class="fas fa-ellipsis-h"></i>
+      </div>
+
+      <div id="aside-header-2">
+        Recently Played
+        <x>View All</x>
+      </div>
+
+      <div id="song">
+        <div id="song-number">
+          01
+          <img src="images/kesariya.jpeg" alt="album image" />
+          <div id="song-details">
+            kesariya
+            <br />
+            <author> kesariya</author>
+          </div>
+        </div>
+
+        <div id="icons">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+
+      <div id="song">
+        <div id="song-number">
+          02
+          <img src="images/kesariya.jpeg" alt="album image" />
+          <div id="song-details">
+            kesariya
+            <br />
+            <author>Tove Styrke</author>
+          </div>
+        </div>
+
+        <div id="icons">
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+    </aside>
+
+    <footer>
+      <div id="music-bar">
+        <div id="music-icon">
+          <img src="images/kesariya.jpeg" alt="music-icon" />
+        </div>
+
+        <div id="music-title">
+          <b>Kesariya</b>
+          <div id="favourite">
+            <i class="far fa-heart"></i>
+          </div>
+          <div id="remove">
+            <i class="fas fa-ban"></i>
+          </div>
+          <br />
+          <artist>Arijit Singh</artist>
+        </div>
+
+        <div id="play-buttons">
+          <i class="fas fa-random"></i>
+          <i class="fas fa-backward"></i>
+          <i class="fas fa-pause-circle"></i>
+          <i class="fas fa-forward"></i>
+          <i class="fas fa-undo-alt"></i>
+        </div>
+
+        <div id="start-time">
+          0:00
+        </div>
+
+        <div id="end-time">
+          5:04
+        </div>
+
+        <div id="progress-bar">
+          <div id="circle">
+            <i class="fas fa-circle"></i>
+          </div>
+        </div>
+
+        <div id="queue">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div id="volume">
+          <i class="fas fa-volume-up"></i>
+        </div>
+        <div id="progress-bar-volume">
+          <div id="circle-volume">
+            <i class="fas fa-circle"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="script.js"></script>
+</html>
